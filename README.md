@@ -20,6 +20,8 @@ A structured self-study course on **SAP Business Technology Platform**, built fr
 git clone --recurse-submodules https://github.com/SubodhDataNub/sap-btp-study.git
 ```
 
+> **Windows tip:** clone into a short folder such as `C:\study\` (anything up to about 100 characters). Some SAP doc paths are long, and Windows' 260-character path limit can otherwise hide a few images.
+
 If you already cloned without `--recurse-submodules`, fetch the docs with:
 
 ```bash
