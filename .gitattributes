@@ -1,0 +1,9 @@
+# Normalise text files in the repo; give each OS its native line endings on checkout.
+* text=auto
+
+# Windows launchers must keep CRLF; shell scripts must keep LF or they won't run on macOS/Linux.
+*.cmd text eol=crlf
+*.sh  text eol=lf
+
+# Bundled minified libraries: never touch.
+curriculum/site/vendor/*.js -text

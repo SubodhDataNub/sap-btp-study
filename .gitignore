@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Temporary file written by the site while saving progress
+*.tmp
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Local Claude Code settings for this machine
+.claude/
